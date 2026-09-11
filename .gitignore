@@ -1,0 +1,12 @@
+node_modules/
+dist/
+.env
+.env.local
+.env.production
+uploads/
+.vercel/
+*.log
+.DS_Store
+build-out.txt
+edge-out.txt
+qa-screenshots/

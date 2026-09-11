@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /account
+Disallow: /admin
+Disallow: /checkout
+
+Sitemap: https://flameandfork.rw/sitemap.xml

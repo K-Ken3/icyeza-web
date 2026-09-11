@@ -320,9 +320,9 @@ const categories = [
 
 const locations = [
   {
-    name: 'Kigali City Center',
-    address: 'KN 4 Ave, Nyarugenge, Kigali',
-    phone: '+250 788 123 456',
+    name: 'Rebero branch (HQ)',
+    address: 'KK 30 Ave, Kicukiro, Kigali',
+    phone: '+250 795 760 000',
     openingHours: '08:00 - 22:00',
     latitude: -1.9441,
     longitude: 30.0619,
@@ -332,7 +332,7 @@ const locations = [
   {
     name: 'Kimironko Branch',
     address: 'KG 10 Ave, Kimironko, Kigali',
-    phone: '+250 788 234 567',
+    phone: '+250 795 760 000',
     openingHours: '09:00 - 21:00',
     latitude: -1.9364,
     longitude: 30.1287,
@@ -342,7 +342,7 @@ const locations = [
   {
     name: 'Kicukiro Branch',
     address: 'KK 15 Rd, Kicukiro, Kigali',
-    phone: '+250 788 345 678',
+    phone: '+250 795 760 000',
     openingHours: '08:30 - 22:00',
     latitude: -1.9809,
     longitude: 30.1161,
@@ -353,26 +353,26 @@ const locations = [
 
 const partners = [
   {
-    name: 'Kurema Delivery',
+    name: 'ByKenDesigns',
     logo: `${IMAGE_BASE}1511795409834-ef04a5c8d44e?w=400`,
-    tagline: 'Swift delivery across Kigali',
-    website: 'https://example.com/kurema-delivery',
+    tagline: 'The tech company behind this platform',
+    website: '#',
     sortOrder: 1,
     active: true,
   },
   {
-    name: 'Rwanda Coffee Co.',
+    name: 'NDAJE Green',
     logo: `${IMAGE_BASE}1447933601403-0244e00850c2?w=400`,
-    tagline: 'Locally roasted Rwandan bean',
-    website: 'https://example.com/rwanda-coffee',
+    tagline: 'eCommerce platform',
+    website: 'https://ndaje.com/',
     sortOrder: 2,
     active: true,
   },
   {
-    name: 'Fresh Fields Farm',
+    name: 'Vuba Vuba',
     logo: `${IMAGE_BASE}1500937386664-56d1dfef3854?w=400`,
-    tagline: 'Farm-to-table produce',
-    website: 'https://example.com/fresh-fields',
+    tagline: 'Food delivery partner',
+    website: '#',
     sortOrder: 3,
     active: true,
   },

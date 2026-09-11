@@ -40,7 +40,7 @@ export const Contact = () => {
             </div>
             <div>
               <h3 className="font-semibold text-stone-800 text-sm">Call Us</h3>
-              <p className="text-sm text-stone-500">+250 788 123 456</p>
+              <p className="text-sm text-stone-500">+250 788 519 671</p>
               <p className="text-sm text-stone-500">+250 722 987 654</p>
             </div>
           </div>
@@ -50,8 +50,7 @@ export const Contact = () => {
             </div>
             <div>
               <h3 className="font-semibold text-stone-800 text-sm">Email Us</h3>
-              <p className="text-sm text-stone-500">hello@flameandfork.rw</p>
-              <p className="text-sm text-stone-500">support@flameandfork.rw</p>
+              <p className="text-sm text-stone-500"> icyezacoffee@gmail.com</p>
             </div>
           </div>
           <div className="bg-white rounded-2xl border border-stone-100 p-5 flex items-start gap-4 shadow-sm">

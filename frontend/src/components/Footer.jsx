@@ -54,10 +54,10 @@ const footerCols = [
 ];
 
 const socials = [
-  { label: 'Instagram', icon: InstagramIcon },
-  { label: 'Facebook', icon: FacebookIcon },
-  { label: 'TikTok', icon: Music2 },
-  { label: 'X', icon: XIcon },
+  { label: 'Instagram', icon: InstagramIcon, href: 'https://www.instagram.com/icyeza_one_coffee_shop/' },
+  { label: 'Facebook', icon: FacebookIcon, href: '#' },
+  { label: 'TikTok', icon: Music2, href: '#' },
+  { label: 'X', icon: XIcon, href: '#' },
 ];
 
 export const Footer = () => {
@@ -77,10 +77,10 @@ export const Footer = () => {
               enjoy, straight to your door in Kigali and beyond.
             </p>
             <div className="flex items-center gap-2">
-              {socials.map(({ label, icon: Icon }) => (
+              {socials.map(({ label, icon: Icon, href }) => (
                 <a
                   key={label}
-                  href="#"
+                  href={href}
                   className="h-9 w-9 flex items-center justify-center rounded-full bg-white/5 hover:bg-white/10 text-stone-300 hover:text-white transition-colors"
                   aria-label={label}
                 >
@@ -115,10 +115,10 @@ export const Footer = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-x-5 gap-y-2 text-sm text-stone-400">
             <span className="flex items-center gap-1.5">
-              <Phone size={14} /> +250 788 123 456
+              <Phone size={14} /> +250 788 519 671
             </span>
             <span className="flex items-center gap-1.5">
-              <Mail size={14} /> hello@flameandfork.rw
+              <Mail size={14} />  icyezacoffee@gmail.com
             </span>
             <span className="flex items-center gap-1.5">
               <Clock size={14} /> 08:00 - 22:00

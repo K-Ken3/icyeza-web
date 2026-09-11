@@ -25,7 +25,7 @@ export const createPayment = asyncHandler(async (req, res) => {
   const paymentResult = await paymentService.createPayment({
     amount: order.total,
     currency: 'RWF',
-    email: order.customerInfo?.email || ' icyezacoffee@gmail.com',
+    email: order.customerInfo?.email || 'icyezacoffee@gmail.com',
     phone: order.customerInfo?.phone || '+250700000000',
     paymentType: order.paymentMethod,
     orderId: order._id,

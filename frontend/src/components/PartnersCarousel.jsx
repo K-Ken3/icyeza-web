@@ -62,16 +62,16 @@ export const PartnersCarousel = ({ partners }) => {
                   key={p._id}
                   className="flex flex-col items-center justify-center text-center rounded-2xl border border-stone-100 bg-white p-5 sm:p-6 shadow-sm hover:shadow-md transition-shadow"
                 >
-                  <div className="h-14 sm:h-20 flex items-center justify-center mb-3">
+                  <div className="h-16 w-16 sm:h-20 sm:w-20 rounded-full overflow-hidden bg-stone-100 ring-2 ring-stone-100 shadow-sm flex items-center justify-center mb-3">
                     {p.logo ? (
                       <img
                         src={p.logo}
                         alt={`${p.name} logo`}
-                        className="max-h-12 sm:max-h-16 max-w-full object-contain"
+                        className="h-full w-full object-cover"
                         loading="lazy"
                       />
                     ) : (
-                      <span className="text-4xl sm:text-5xl font-black text-stone-300">
+                      <span className="text-2xl sm:text-3xl font-black text-stone-400">
                         {p.name.charAt(0)}
                       </span>
                     )}

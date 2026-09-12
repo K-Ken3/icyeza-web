@@ -354,7 +354,7 @@ const locations = [
 const partners = [
   {
     name: 'ByKenDesigns',
-    logo: `${IMAGE_BASE}1511795409834-ef04a5c8d44e?w=400`,
+    logo: `${IMAGE_BASE}1498050108023-c5249f4df085?w=400`,
     tagline: 'The tech company behind this platform',
     website: '#',
     sortOrder: 1,
@@ -362,7 +362,7 @@ const partners = [
   },
   {
     name: 'NDAJE Green',
-    logo: `${IMAGE_BASE}1447933601403-0244e00850c2?w=400`,
+    logo: `${IMAGE_BASE}1556742049-0cfed4f6a45d?w=400`,
     tagline: 'eCommerce platform',
     website: 'https://ndaje.com/',
     sortOrder: 2,
@@ -370,7 +370,7 @@ const partners = [
   },
   {
     name: 'Vuba Vuba',
-    logo: `${IMAGE_BASE}1500937386664-56d1dfef3854?w=400`,
+    logo: `${IMAGE_BASE}1565299624946-b28f40a0ae38?w=400`,
     tagline: 'Food delivery partner',
     website: '#',
     sortOrder: 3,

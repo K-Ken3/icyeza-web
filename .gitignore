@@ -11,3 +11,4 @@ uploads/
 build-out.txt
 edge-out.txt
 qa-screenshots/
+.vercel

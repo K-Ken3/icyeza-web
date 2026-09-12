@@ -67,7 +67,8 @@ export const PartnersCarousel = ({ partners }) => {
                       <img
                         src={p.logo}
                         alt={`${p.name} logo`}
-                        className="h-full w-full object-cover"
+                        className="object-cover"
+                        style={{ height: '100%', width: '100%' }}
                         loading="lazy"
                       />
                     ) : (
